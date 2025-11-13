@@ -566,6 +566,11 @@ class MarkdownViewer {
       return;
     }
 
+    this.generatePDFFromContent(this.currentContent, this.currentTitle);
+  }
+
+  // Generate PDF from content (used by both viewer and library download)
+  generatePDFFromContent(content, title) {
     // Create print window
     const printWindow = window.open('', '_blank');
     if (!printWindow) {
@@ -573,13 +578,13 @@ class MarkdownViewer {
       return;
     }
 
-    const htmlContent = marked.parse(this.currentContent);
+    const htmlContent = marked.parse(content);
     
     printWindow.document.write(`
       <!DOCTYPE html>
       <html>
       <head>
-        <title>${this.currentTitle}</title>
+        <title>${title}</title>
         <style>
           @media print {
             @page {
