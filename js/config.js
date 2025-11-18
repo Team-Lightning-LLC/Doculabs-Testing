@@ -153,7 +153,7 @@ const CONFIG = {
     "Monetary Policy & Interest Rate": "Analyze sensitivity to rate changes: duration exposure, refinancing risk, valuation impact",
     
     // Company Insights
-    "Management Team": "Workforce analysis: talent acquisition, key personnel, compensation, culture, human capital strategy",
+    "Management Team": "Understand the teams behind the company, their goals, directives, and overarching strategy",
     "Alliance & Partnerships: Past, Current, Future": "Partnership history, alliance value, strategic gaps, and likely future moves",
     "Industry Trend Analysis": "Long-term industry trajectory: growth, tech shifts, regulation, competitive landscape evolution",
     
