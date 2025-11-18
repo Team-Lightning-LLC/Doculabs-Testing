@@ -1,4 +1,4 @@
-// Portfolio Pulse Widget - Integrated Version
+// Portfolio Pulse Widget - Integrated Version 2
 // Manages digest generation, loading, parsing, and display
 
 class PortfolioPulseWidget {
