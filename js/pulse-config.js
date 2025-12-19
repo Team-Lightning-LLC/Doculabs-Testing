@@ -3,7 +3,7 @@
 
 const PULSE_CONFIG = {
   // Vertesia API (uses same credentials as main app)
-  VERTESIA_API_KEY: 'sk-2538a58567e4ebb6654c0a17ceab228c',
+  VERTESIA_API_KEY: 'sk-c1fcb4d89046eddc728145375aab978e',
   VERTESIA_BASE_URL: 'https://api.vertesia.io/api/v1',
   ENVIRONMENT_ID: '681915c6a01fb262a410c161',
   MODEL: 'publishers/anthropic/models/claude-sonnet-4',
